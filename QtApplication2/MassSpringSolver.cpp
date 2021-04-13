@@ -16,7 +16,7 @@ MassSpringSolver::MassSpringSolver(std::vector<Vertex> given_list_vertex, std::v
 	ballPos = Vector3f(0.f, -6.f, 0.f);
 	ballR = 4.6f;
 	wind_speed = 5.f;
-	time_space = 0.0001f;
+	time_space = 0.01f;
 }
 
 void MassSpringSolver::lockVertex(int id) {
